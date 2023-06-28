@@ -1,1 +1,21 @@
-/* your code */
+table {
+  border-collapse: collapse;
+	color:white;
+  width: 100%;
+}
+
+th, td {
+	color:black;
+  padding: 10px;
+  text-align: left;
+/*  // border-bottom: px solid #ddd;*/
+}
+
+th {
+  background-color:#215A8E;
+	color:white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color:#DDDDDD;
+}
